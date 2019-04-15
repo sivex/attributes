@@ -1,6 +1,6 @@
 #attempt without hooks 
-#projects/main.c ident export-subst
+projects/main.c ident export-subst
 
 # attempt with hooks 
-projects/main.c filter ident 
+# projects/main.c filter ident 
 *.c ident 
