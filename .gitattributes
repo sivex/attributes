@@ -3,4 +3,4 @@
 
 # attempt with hooks 
 projects/main.c filter ident 
-#*.c ident 
+*.c ident 
