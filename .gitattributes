@@ -1,1 +1,14 @@
-projects/main.c ident export-subst
+#attempt without hooks 
+# projects/main.c ident export-subst
+
+# attempt with hooks 
+# projects/main.c filter ident 
+*.c ident filter=add_date 
+
+# Happens before commit (Removes String)
+# git config --global filter.add_date.clean clean_add_date.sh
+# Happens on checkout (Populates Variable)
+# git config --global filter.add_date.smudge smudge_remove_date.sh
+# $Format:%ci$ ($Format:%h$)
+
+projects/main.c filter=add_date
