@@ -10,6 +10,8 @@ int main()
     // $Format:%ci$ ($Format:%h$)
     
     // $ZYX$
+   // lol idk man 
+    //// test add commit
 
     return 1;
 }
