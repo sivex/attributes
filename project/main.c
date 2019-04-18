@@ -5,7 +5,7 @@ int main()
 {
 
     printf("Version 0.0.1\n");
-    printf("$Id$ $build_date$\n");
+    printf("$Id$ $build_date$ $poop$\n");
     // $Id$ 
     // $Format:%ci$ ($Format:%h$)
     
