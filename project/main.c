@@ -12,7 +12,7 @@ int main()
     // $ZYX$
    // lol idk man lslsls
     //// test add commit   hahahah 
-    // test pull from remote
+     // test pull from remote 2
     return 1;
 }
 
